@@ -29,7 +29,7 @@ export const Links = [
     id: "4",
     title: "Contact",
     icon: "fa-solid fa-phone",
-    url: "tel:7015403367",
+    url: "https://wa.me/7015403367",
   },
 ];
 
