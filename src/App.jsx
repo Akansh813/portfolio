@@ -13,12 +13,6 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import QualityHeader from "./Components/QualityHeader";
 import WorkExperience from "./Components/WorkExperience";
 import Projects from "./Components/Projects";
-import Certifications from "./Components/Certifications";
-import Patents from "./Components/Patents";
-import ResearchesContained from "./Components/ResearchesContained";
-import InternshipsData from "./Components/InternshipsData";
-import Achievements from "./Components/Achievements";
-import Contact from "./Components/Contact";
 import { ToastContainer } from "react-toastify";
 
 const AlterMessage = () => {
