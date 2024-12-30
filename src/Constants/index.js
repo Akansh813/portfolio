@@ -55,7 +55,7 @@ export const menuLinks = [
   {
     id: "1",
     title: "Home",
-    toggle: "/",
+    toggle: "#main",
   },
   {
     id: "2",

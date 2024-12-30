@@ -53,7 +53,7 @@ const AlterMessage = () => {
   const navbarClass = isScrolled ? "bg-white md:px-3 px-4 shadow-lg  " : " md:px-3 px-4 bg-transparent";
   return (
 
-    <div className=" scroll-smooth">
+    <div className=" scroll-smooth" id="#main">
       <div className={`w-full ${navbarClass} fixed top-0 pt-3 left-0 z-50`}>
         <div className="container w-full  mx-auto">
           <div className="flex items-center py-3 pb-4">
