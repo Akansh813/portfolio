@@ -71,12 +71,12 @@ const AlterMessage = () => {
             </div>
 
             {/* Right Side of Navbar */}
-            <div className="justify-end flex-1 flex items-center">
-              <ul className="flex text-[#00004B] justify-end mr-6">
+            <div className="justify-end flex-1 flex items-right">
+              <ul className="flex text-[#00004B] justify-end mr-2">
                 {Links.map((nav, index) => (
                   <li
                     key={index}
-                    className="mr-8"
+                    className="mr-5"
                     onClick={() => handleClick(nav.url)}
                   >
                     <div className="text-[20px] cursor-pointer">
