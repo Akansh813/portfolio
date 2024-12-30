@@ -85,10 +85,7 @@ const About = () => {
               <li>Ranked 7th in M. Pharmacy, IKGPTU (2020)</li>
               <li>GPAT Qualified (2018)</li>
               <li>1st Prize in Scientific Discussion, ISF College (2018)</li>
-              <li>
-                Published research and review articles in leading journals like
-                Neuropharmacology and Inflammation
-              </li>
+              
             </ul>
           </div>
 
@@ -109,7 +106,7 @@ const About = () => {
         </div>
 
         <div className="w-[95vw] mt-5 p-3 md:flex main-box">
-          <div className="mission md:mr-16 md:w-1/2 ml-0 m-[1rem]">
+          {/* <div className="mission md:mr-16 md:w-1/2 ml-0 m-[1rem]">
             <h1
               className={`text-[16px] mb-4 font-semibold uppercase ${styles.logoFlexRemastered}`}
             >
@@ -120,9 +117,9 @@ const About = () => {
               <li>Advanced Pharmacovigilance Training (2022)</li>
               <li>Argus Safety Specialist Certification</li>
             </ul>
-          </div>
+          </div> */}
 
-          <div className="mission md:w-1/2 md:ml-5 ml-0 m-[1rem]">
+          <div className="mission md:mr-16 md:w-1/2 ml-0 m-[1rem]">
             <h1
               className={`text-[16px] mb-4 font-semibold uppercase ${styles.logoFlexRemastered}`}
             >

@@ -44,14 +44,14 @@ const Projects = () => {
         2024; Impact factor: 6.267 (Published).
       </p>
     </div>
-    <div className="p-6 bg-white rounded-lg shadow-lg">
+    {/* <div className="p-6 bg-white rounded-lg shadow-lg">
       <h3 className="font-bold text-lg text-[#00004B]">Review Article</h3>
       <p className="text-[#52526C] mt-2">
         "Emerging approaches for the treatment of Alzheimer disease: Targeting NF-κB pathway."
         Communicated in <strong>Inflammation</strong>; Journal of Springer;
         2020; Impact factor: 3.212 (under review).
       </p>
-    </div>
+    </div> */}
     <div className="p-6 bg-white rounded-lg shadow-lg">
       <h3 className="font-bold text-lg text-[#00004B]">Book Chapter</h3>
       <p className="text-[#52526C] mt-2">
