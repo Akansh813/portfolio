@@ -13,12 +13,12 @@ import  RegulatorySubmissionIcon  from "../assets/images/icons/RegulatorySubmiss
 export const Links = [
   
   {
-
     id: "2",
-    title: "Instagram",
-    icon: "fa-brands fa-instagram",
-    url: "https://www.instagram.com/akansh_goel619?igsh=YnVicGlmbXp6bG1l",
+    title: "Email",
+    icon: "fa-solid fa-envelope", // Email icon
+    url: "mailto:akanshgoel619@gmail.com", // Redirects to email client
   },
+  
   {
     id: "3",
     title: "LinkedIn",
@@ -55,12 +55,17 @@ export const menuLinks = [
   {
     id: "1",
     title: "Home",
-    toggle: "Home-Section",
+    toggle: "/",
   },
   {
     id: "2",
     title: "About Me",
     toggle: "#AboutSection",
+  },
+  {
+    id: "5",
+    title: "Education",
+    toggle: "#Education",
   },
   {
     id: "3",
@@ -72,33 +77,36 @@ export const menuLinks = [
     title: "Work Experience",
     toggle: "#ProjectsSection",
   },
-  
+ 
   
   
   
 ];
 
 export const qualities = [
-  { id: "01.", title: "Attention to Detail", skill: "Accurate Documentation & Archiving" },
-  { id: "02.", title: "Regulatory Expertise", skill: "Compliance & Reporting" },
-  { id: "03.", title: "Team Training & Leadership", skill: "Guidance & Knowledge Sharing" },
-  { id: "04.", title: "Technical Proficiency", skill: "Argus Safety & MedDRA Coding" },
+  { id: "01.", title: "ICSR Case Processing", skill: "" },
+  { id: "02.", title: "Aggregate Reports", skill: "" },
+  { id: "03.", title: "Regulatory Submissions", skill: "" },
+  { id: "04.", title: "Literature Monitoring", skill: "" },
 ];
 
+
 export const skills1 = [
-  { name: "DSUR Preparation", percentage: "90%" },
+  { name: "Argus Safety & Data Management", percentage: "90%" },
+  { name: "MS Office Suite (Excel, Word, PowerPoint)", percentage: "88%" },
+  { name: "GraphPad Prism, ChemDraw, Mendeley", percentage: "85%" },
   { name: "Signal Management", percentage: "85%" },
-  { name: "Regulatory Submissions", percentage: "80%" },
-  { name: "Reconciliation Activities", percentage: "75%" },
-  { name: "ICSR Case Processing (Argus Safety)", percentage: "88%" },
+  { name: "DSUR Preparation", percentage: "80%" },
 ];
 
 export const skills2 = [
-  { name: "MedDRA Coding", percentage: "80%" },
-  { name: "Follow-up Query Management", percentage: "75%" },
-  { name: "Literature Monitoring", percentage: "70%" },
-  { name: "Training & Team Management", percentage: "85%" },
+  { name: "MedDRA Coding", percentage: "85%" },
+  { name: "Instrumentation Mastery (ELISA, HPLC, UV Spectrophotometer)", percentage: "80%" },
+  { name: "Training & Team Management", percentage: "80%" },
+  { name: "Literature Monitoring", percentage: "75%" },
+  { name: "Follow-up Query Management", percentage: "70%" },
 ];
+
 
 export const technologyIconsFixed = [
   {

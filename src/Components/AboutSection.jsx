@@ -1,7 +1,6 @@
 import React from "react";
-import { AboutSEC } from "./Contentdata";
-import "../assets/Css/fonts.css";
 import { styles } from "../style";
+import "../assets/Css/fonts.css";
 
 const About = () => {
   return (
@@ -38,63 +37,103 @@ const About = () => {
             </div>
           </div>
         </div>
+
         <div className="w-[95vw] mt-0 p-3 md:flex main-box">
           <div className="mission md:mr-16 md:w-1/2 ml-0 m-[1rem]">
             <h1
               className={`text-[16px] mb-4 font-semibold uppercase ${styles.logoFlexRemastered}`}
             >
-              Summary
+              Professional Summary
             </h1>
             <p className="xl:text-xl font-extralight lg:text-lg text-[1rem] para-text w-full">
-              Experienced Senior Pharmacovigilance Associate with expertise in
-              DSUR preparation, ICSR processing, and clinical trial case
-              triage. Proficient in Argus Safety, MedDRA coding, and regulatory
-              reporting.
+              Experienced Senior Pharmacovigilance Associate specializing in
+              pharmacovigilance, regulatory submissions, and clinical trial
+              safety management. Skilled in Argus Safety, MedDRA coding,
+              DSUR preparation, and aggregate reporting. Proven ability to
+              deliver high-quality safety data management and compliance
+              with international regulatory standards.
             </p>
           </div>
+
           <div className="mission md:w-1/2 md:ml-5 ml-0 m-[1rem]">
             <h1
               className={`text-[16px] mb-4 font-semibold uppercase ${styles.logoFlexRemastered}`}
             >
               Work Experience
             </h1>
-            <p className="xl:text-xl font-extralight lg:text-lg text-[1rem] para-text w-full">
-              <strong>Senior Pharmacovigilance Associate</strong> - AWINSA Life
-              Sciences (June 2023 - Present) <br />
-              <strong>Pharmacovigilance Associate</strong> - AWINSA Life
-              Sciences (March 2021 - May 2023)
-            </p>
+            <ul className="xl:text-xl font-extralight lg:text-lg text-[1rem] para-text w-full list-disc list-inside">
+              <li>
+                <strong>Senior Pharmacovigilance Associate</strong> - AWINSA
+                Life Sciences (June 2023 - Present)
+              </li>
+              <li>
+                <strong>Pharmacovigilance Associate</strong> - AWINSA Life
+                Sciences (March 2021 - May 2023)
+              </li>
+            </ul>
           </div>
         </div>
+
         <div className="w-[95vw] mt-5 p-3 md:flex main-box">
           <div className="mission md:mr-16 md:w-1/2 ml-0 m-[1rem]">
             <h1
               className={`text-[16px] mb-4 font-semibold uppercase ${styles.logoFlexRemastered}`}
             >
-              Achievements
+              Key Achievements
             </h1>
             <ul className="xl:text-xl font-extralight lg:text-lg text-[1rem] para-text w-full list-disc list-inside">
-              <li>7th rank in M. Pharmacy, IKGPTU (2020)</li>
+              <li>Ranked 7th in M. Pharmacy, IKGPTU (2020)</li>
               <li>GPAT Qualified (2018)</li>
               <li>1st Prize in Scientific Discussion, ISF College (2018)</li>
               <li>
-                Published research and review articles in Neuropharmacology and
-                Inflammation journals
+                Published research and review articles in leading journals like
+                Neuropharmacology and Inflammation
               </li>
             </ul>
           </div>
+
           <div className="mission md:w-1/2 md:ml-5 ml-0 m-[1rem]">
             <h1
               className={`text-[16px] mb-4 font-semibold uppercase ${styles.logoFlexRemastered}`}
             >
-              Technical Skills
+              Technical Expertise
             </h1>
             <ul className="xl:text-xl font-extralight lg:text-lg text-[1rem] para-text w-full list-disc list-inside">
               <li>Argus Safety Database</li>
-              <li>DSUR and Aggregate Reports</li>
-              <li>MedDRA Coding</li>
-              <li>Regulatory Submissions</li>
-              <li>Signal Management</li>
+              <li>DSUR and Aggregate Reporting</li>
+              <li>MedDRA Coding & Signal Detection</li>
+              <li>Regulatory Submissions & Compliance</li>
+              <li>Clinical Trial Safety Management</li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="w-[95vw] mt-5 p-3 md:flex main-box">
+          <div className="mission md:mr-16 md:w-1/2 ml-0 m-[1rem]">
+            <h1
+              className={`text-[16px] mb-4 font-semibold uppercase ${styles.logoFlexRemastered}`}
+            >
+              Certifications
+            </h1>
+            <ul className="xl:text-xl font-extralight lg:text-lg text-[1rem] para-text w-full list-disc list-inside">
+              <li>GPAT Certification (2018)</li>
+              <li>Advanced Pharmacovigilance Training (2022)</li>
+              <li>Argus Safety Specialist Certification</li>
+            </ul>
+          </div>
+
+          <div className="mission md:w-1/2 md:ml-5 ml-0 m-[1rem]">
+            <h1
+              className={`text-[16px] mb-4 font-semibold uppercase ${styles.logoFlexRemastered}`}
+            >
+              Tools & Software Proficiency
+            </h1>
+            <ul className="xl:text-xl font-extralight lg:text-lg text-[1rem] para-text w-full list-disc list-inside">
+              <li>Argus Safety</li>
+              <li>MedDRA and WHO Drug Dictionary</li>
+              <li>GraphPad Prism, Chemdraw, Mendley</li>
+              <li>ELISA, HPLC, UV Spectrophotometer</li>
+              <li>MS Office Suite (Excel, Word, PowerPoint)</li>
             </ul>
           </div>
         </div>

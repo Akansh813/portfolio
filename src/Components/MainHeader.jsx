@@ -1,9 +1,10 @@
-import React ,{useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
 import { about } from "../assets";
 import { styles } from "../style";
 import { Header } from "./Contentdata";
 import "../assets/Css/fonts.css";
-import  satwik  from "../assets/images/satwik.jpg";
+import satwik from "../assets/images/satwik.jpg";
+
 const MainHeader = () => {
   const [isScrolled, setScrolled] = useState(false);
   useEffect(() => {
@@ -27,10 +28,10 @@ const MainHeader = () => {
   return (
     <div className="container relative block w-full mx-auto md:flex">
       <div className="z-0 BannerFlexed">
-  <h1 className="text-[6rem] md:text-[12rem] xl:text-[18rem] font-extrabold absolute text-white pl-[1rem] md:pl-[8rem] xl:pl-[20rem] scrolling-text">
-    Senior Pharmacovigilance Associate
-  </h1>
-</div>
+        <h1 className="text-[6rem] md:text-[12rem] xl:text-[18rem] font-extrabold absolute text-white pl-[1rem] md:pl-[8rem] xl:pl-[20rem] scrolling-text">
+          Senior Pharmacovigilance Associate
+        </h1>
+      </div>
 
       <div className="items-center row">
         <h1 className={`text-[24px] ${styles.logoFlex}`}>{Header.heading}</h1>
@@ -39,17 +40,17 @@ const MainHeader = () => {
         >
           {Header.HeaderTitle}
         </h1>
-        <a href="/akanshh.pdf" download="Akansh_Goel_Resume.pdf">
-  <button className={`${styles.ButtonLeft} ${ButtnonWrittenClass} cursor-pointer relative z-10 button-container-1 mb-[4rem] btn btn-1`}>
-    Download Resume
-    <i className="fa-solid fa-caret-right float-right text-[20px] pr-5"></i>
-  </button>
-</a>
+        <a href="https://drive.google.com/drive/folders/1Slx4K3VIA42AoAh7CBwLRvsv35ldidsC" target="_blank" download="Akansh_Goel_Resume.pdf">
+          <button className={`${styles.ButtonLeft} ${ButtnonWrittenClass} cursor-pointer relative z-10 button-container-1 mb-[4rem] btn btn-1`}>
+            Download Resume
+            <i className="fa-solid fa-caret-right float-right text-[20px] pr-5"></i>
+          </button>
+        </a>
 
       </div>
-      
+
       <div className={`${AboutImageClass}`}>
-        <img  src={satwik} width={1500} className="md:w-[100rem] ImageContained" alt="my" />
+        <img src={satwik} width={1500} className="md:w-[100rem] ImageContained" alt="my" />
       </div>
     </div>
   );
